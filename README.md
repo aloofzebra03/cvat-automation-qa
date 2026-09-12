@@ -115,12 +115,6 @@ Warnings: 2
 6. Re-export and rerun the validator.
 7. Record the final pass/fail status.
 
-## Resume-ready description
-
-> Reviewed video annotation quality with frame-level checks for missed events, timestamp accuracy, boundary precision, label consistency, and guideline adherence. Built Python-based validation utilities for CVAT XML exports to flag out-of-range frames, invalid labels, empty tracks, duplicate events, and suspiciously short annotations.
-
-## Privacy / data note
-
 The XML files in `sample_data/` are synthetic and contain no proprietary or personal data.
 
 ## License
