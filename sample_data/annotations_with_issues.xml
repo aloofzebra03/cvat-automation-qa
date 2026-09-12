@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>102</id>
+      <name>synthetic-action-demo-with-issues</name>
+      <size>120</size>
+      <labels>
+        <label><name>walking</name></label>
+        <label><name>jump</name></label>
+        <label><name>sitting</name></label>
+      </labels>
+    </task>
+  </meta>
+
+  <track id="0" label="walking">
+    <box frame="10" outside="0" occluded="0" keyframe="1" xtl="10" ytl="20" xbr="100" ybr="180"/>
+    <box frame="20" outside="0" occluded="0" keyframe="1" xtl="15" ytl="20" xbr="105" ybr="180"/>
+  </track>
+
+  <track id="1" label="walking">
+    <box frame="12" outside="0" occluded="0" keyframe="1" xtl="11" ytl="20" xbr="101" ybr="180"/>
+    <box frame="19" outside="0" occluded="0" keyframe="1" xtl="14" ytl="20" xbr="104" ybr="180"/>
+  </track>
+
+  <track id="2" label="jump">
+    <box frame="50" outside="0" occluded="0" keyframe="1" xtl="30" ytl="30" xbr="110" ybr="170"/>
+  </track>
+
+  <track id="3" label="sitting">
+    <box frame="130" outside="0" occluded="0" keyframe="1" xtl="20" ytl="50" xbr="115" ybr="190"/>
+  </track>
+
+  <track id="4" label="running">
+    <box frame="80" outside="0" occluded="0" keyframe="1" xtl="25" ytl="30" xbr="105" ybr="185"/>
+    <box frame="88" outside="0" occluded="0" keyframe="1" xtl="25" ytl="30" xbr="105" ybr="185"/>
+  </track>
+
+  <track id="5" label="walking">
+    <box frame="95" outside="1" occluded="0" keyframe="1" xtl="0" ytl="0" xbr="0" ybr="0"/>
+  </track>
+</annotations>
